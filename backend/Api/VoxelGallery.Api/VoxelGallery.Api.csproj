@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Extensions.AspNetCore.Configuration.Secrets" Version="1.5.1" />
+    <PackageReference Include="Azure.Identity" Version="1.21.0" />
+    <PackageReference Include="Duende.IdentityModel" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.7" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.14.10" />
+    <PackageReference Include="System.Drawing.Common" Version="10.0.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../Domain/VoxelGallery.Domain.Model/VoxelGallery.Domain.csproj" />
+    <ProjectReference Include="../../Domain/VoxelGallery.Domain.Services/VoxelGallery.Domain.Services.csproj" />
+    <ProjectReference Include="../../Persistence/VoxelGallery.Persistence.DataModel/VoxelGallery.Persistence.DataModel.csproj" />
+    <ProjectReference Include="../../Persistence/VoxelGallery.Persistence.HardCoded/VoxelGallery.Persistence.HardCoded.csproj" />
+    <ProjectReference Include="../../Persistence/VoxelGallery.Persistence/VoxelGallery.Persistence.csproj" />
+    <ProjectReference Include="../../shared/VoxAuthHandler/VoxAuth.csproj" />
+    <ProjectReference Include="../VoxelGallery.Api.Contracts/VoxelGallery.Api.Contracts.csproj" />
+  </ItemGroup>
+</Project>

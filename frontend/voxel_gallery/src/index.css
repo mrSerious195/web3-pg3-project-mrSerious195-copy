@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+
+.canvasbg {
+  border: 2px solid; /* Required for border-image */
+  background: linear-gradient(to top right,rgb(36, 186, 236),rgb(161, 221, 241))
+}

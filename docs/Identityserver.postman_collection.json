@@ -1,0 +1,56 @@
+{
+  "info": {
+    "_postman_id": "2e6f380c-6c52-406d-aa3e-a45a6fc90b96",
+    "name": "Identityserver",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52296909"
+  },
+  "item": [
+    {
+      "name": "get postman client token",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "grant_type",
+              "value": "client_credentials",
+              "type": "text",
+              "uuid": "fc359bd0-bf1b-490f-b53a-41399eb4ed3f"
+            },
+            {
+              "key": "client_id",
+              "value": "postman",
+              "type": "text",
+              "uuid": "aadf463e-9215-45e8-ae09-16ec9f097177"
+            },
+            {
+              "key": "client_secret",
+              "value": "postmansecret",
+              "type": "text",
+              "uuid": "30205157-e634-4018-bc80-a85b20cf3fca"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://voxidentityservice.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/connect/token",
+          "protocol": "https",
+          "host": [
+            "voxidentityservice",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "connect",
+            "token"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

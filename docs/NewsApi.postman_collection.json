@@ -1,0 +1,231 @@
+{
+  "info": {
+    "_postman_id": "965fd0a5-2f30-4011-88b2-89ce34281844",
+    "name": "NewsApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52296909"
+  },
+  "item": [
+    {
+      "name": "GetAllNews",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2NzlFRDQyRDdEMzQ3RDg1RUU3NTUyNDIyQUREMDlCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ZveGlkZW50aXR5c2VydmljZS5ncmVlbnNhbmQtOWU2ZWY2NzYuZ2VybWFueXdlc3RjZW50cmFsLmF6dXJlY29udGFpbmVyYXBwcy5pbyIsIm5iZiI6MTc4MDgzOTI4OCwiaWF0IjoxNzgwODM5Mjg4LCJleHAiOjE3ODA4NDI4ODgsImF1ZCI6Imh0dHBzOi8vdm94aWRlbnRpdHlzZXJ2aWNlLmdyZWVuc2FuZC05ZTZlZjY3Ni5nZXJtYW55d2VzdGNlbnRyYWwuYXp1cmVjb250YWluZXJhcHBzLmlvL3Jlc291cmNlcyIsInNjb3BlIjpbIlZveGVsR2FsbGVyeS5BcGkiLCJWb3hlbEdhbGxlcnkuQXBpLm0ybSJdLCJjbGllbnRfaWQiOiJwb3N0bWFuIiwianRpIjoiNEY1MDgyRDdBNERFODM2QkI0NENGNkVFOTEzOTQwMzkifQ.MvRQWv_SsqV94PSzADSWI25qw1EThF4ABrHMDaH4w4D18H61u-6NNbnfF7e8EdPEniYu1ENPSK_rF7lmwRPKYBq5wZqqjUgLSTLmrq8dTsi3BuiLv_T13tm3U31O481EBDhoFGWfvIt7fvmExG1xxg61gl2c2QFSqqugqpoWNnzCJdXWo2Wn_fllmEL41hs_xc9qVkp_ke3mpigIkW3HJoTIQDjmZEinLV2T4cYlnfVZXjv2YvLoO9fldKUaV53YpNwLR_PJIV8uFYgmmM0iqmKTtO8cRbLGJmOGMhz3mRmvb0_nscAOnQyWb8FEY-suca6a9tzZDVRbH2-jlnnVrQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzQjZENTRCOEZEMjUxNjQ5OTZGOTI5RjM3MTE3MThBIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwibmJmIjoxNzc5ODg2ODg4LCJpYXQiOjE3Nzk4ODY4ODgsImV4cCI6MTc3OTg5MDQ4OCwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS9yZXNvdXJjZXMiLCJzY29wZSI6WyJWb3hlbEdhbGxlcnkuQXBpIiwiVm94ZWxHYWxsZXJ5LkFwaS5tMm0iXSwiY2xpZW50X2lkIjoicG9zdG1hbiIsImp0aSI6IjkwRUZGODhCRUUwNzg4QjU0MDY3NEJFNjZBNTJCMDAyIn0.iH3E0jujkHSB8qjgseFvORa7Q4mBHMKt0ACSdxob_Ehqp7GtrVbFi08S5IqXe6FGyNkpp1MdskHk7fGTRtX0IzYWv8ioO7Q_SDzMT7EJLrU62M_UqiW2ZbLHlvRmcq6xDB_I5QqlFzXmgzoLS6-E6jhMpmBXHW1vB4R3DVHyh4vnbXLpONgeEjR1AYylHX9unPvaKqcWzx3l5TAT2DPrDNaZwPZBOd5LLZRzAzzdSBfmGTdes9CDy_VWA5drIuQmuAzIqB3GjO_CDqYWH4ciHBJxU43UHt2jFpV8xKry-0K-KlOwAXeVeQeRQuPB21Q359v54QxBKTofrg0I2jaJ1g",
+            "description": "will check for user",
+            "type": "text",
+            "disabled": true
+          }
+        ],
+        "url": {
+          "raw": "https://vox-news-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/api/News",
+          "protocol": "https",
+          "host": [
+            "vox-news-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "api",
+            "News"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Post News",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2NzlFRDQyRDdEMzQ3RDg1RUU3NTUyNDIyQUREMDlCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ZveGlkZW50aXR5c2VydmljZS5ncmVlbnNhbmQtOWU2ZWY2NzYuZ2VybWFueXdlc3RjZW50cmFsLmF6dXJlY29udGFpbmVyYXBwcy5pbyIsIm5iZiI6MTc4MDg0MDUyMCwiaWF0IjoxNzgwODQwNTIwLCJleHAiOjE3ODA4NDQxMjAsImF1ZCI6Imh0dHBzOi8vdm94aWRlbnRpdHlzZXJ2aWNlLmdyZWVuc2FuZC05ZTZlZjY3Ni5nZXJtYW55d2VzdGNlbnRyYWwuYXp1cmVjb250YWluZXJhcHBzLmlvL3Jlc291cmNlcyIsInNjb3BlIjpbIlZveGVsR2FsbGVyeS5BcGkiLCJWb3hlbEdhbGxlcnkuQXBpLm0ybSJdLCJjbGllbnRfaWQiOiJwb3N0bWFuIiwianRpIjoiQzBBMzFGOUE3RUFFNzdDOUIwQzFBQjE1NEUzQTU5M0MifQ.MFZRQlkbvLcWfTPwO3LSSmE3OV3gBwzOIIsv74UPisE0iV0qY5Y70dJS_SOy9Ws4e1I93s7Rf1uccPmesEPqd7jP5dYmkBJCxx1T9mGAfjO0q5WOYcj5f1hutEdBn1jrLANx9-b-Pv6KiOXlM1VeMSOLA26yyDrlan7JvxpLmmhR6oRS5wCjC12ITW42XfG_1jYpt-mf52YaqwMQxs5YcHZLb8eG9bAfbbdUKDRNlSdmpaWSZDszlzTpXmi_uDAK6qlGSNMXFYDObv8E7smibZSvDZs2RDZtPU-I5_0ZN34E8WuGbKxamcuA62tDR0ZzW-syDqUhaIrSesg9oEGcWQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzQjZENTRCOEZEMjUxNjQ5OTZGOTI5RjM3MTE3MThBIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwibmJmIjoxNzc5ODg2ODg4LCJpYXQiOjE3Nzk4ODY4ODgsImV4cCI6MTc3OTg5MDQ4OCwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS9yZXNvdXJjZXMiLCJzY29wZSI6WyJWb3hlbEdhbGxlcnkuQXBpIiwiVm94ZWxHYWxsZXJ5LkFwaS5tMm0iXSwiY2xpZW50X2lkIjoicG9zdG1hbiIsImp0aSI6IjkwRUZGODhCRUUwNzg4QjU0MDY3NEJFNjZBNTJCMDAyIn0.iH3E0jujkHSB8qjgseFvORa7Q4mBHMKt0ACSdxob_Ehqp7GtrVbFi08S5IqXe6FGyNkpp1MdskHk7fGTRtX0IzYWv8ioO7Q_SDzMT7EJLrU62M_UqiW2ZbLHlvRmcq6xDB_I5QqlFzXmgzoLS6-E6jhMpmBXHW1vB4R3DVHyh4vnbXLpONgeEjR1AYylHX9unPvaKqcWzx3l5TAT2DPrDNaZwPZBOd5LLZRzAzzdSBfmGTdes9CDy_VWA5drIuQmuAzIqB3GjO_CDqYWH4ciHBJxU43UHt2jFpV8xKry-0K-KlOwAXeVeQeRQuPB21Q359v54QxBKTofrg0I2jaJ1g",
+            "description": "will check for admin",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"Id\": \"10cfb948-6352-4659-b63a-7a384fe1ff51\",\r\n    \"Title\":\"lol Idk, what about this (eddit lol)\",\r\n    \"Body\":\"Just make a new news item, it's not that difficult (eddit 3)\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://vox-news-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/api/News",
+          "protocol": "https",
+          "host": [
+            "vox-news-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "api",
+            "News"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "create News",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2NzlFRDQyRDdEMzQ3RDg1RUU3NTUyNDIyQUREMDlCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ZveGlkZW50aXR5c2VydmljZS5ncmVlbnNhbmQtOWU2ZWY2NzYuZ2VybWFueXdlc3RjZW50cmFsLmF6dXJlY29udGFpbmVyYXBwcy5pbyIsIm5iZiI6MTc4MDg0MDUyMCwiaWF0IjoxNzgwODQwNTIwLCJleHAiOjE3ODA4NDQxMjAsImF1ZCI6Imh0dHBzOi8vdm94aWRlbnRpdHlzZXJ2aWNlLmdyZWVuc2FuZC05ZTZlZjY3Ni5nZXJtYW55d2VzdGNlbnRyYWwuYXp1cmVjb250YWluZXJhcHBzLmlvL3Jlc291cmNlcyIsInNjb3BlIjpbIlZveGVsR2FsbGVyeS5BcGkiLCJWb3hlbEdhbGxlcnkuQXBpLm0ybSJdLCJjbGllbnRfaWQiOiJwb3N0bWFuIiwianRpIjoiQzBBMzFGOUE3RUFFNzdDOUIwQzFBQjE1NEUzQTU5M0MifQ.MFZRQlkbvLcWfTPwO3LSSmE3OV3gBwzOIIsv74UPisE0iV0qY5Y70dJS_SOy9Ws4e1I93s7Rf1uccPmesEPqd7jP5dYmkBJCxx1T9mGAfjO0q5WOYcj5f1hutEdBn1jrLANx9-b-Pv6KiOXlM1VeMSOLA26yyDrlan7JvxpLmmhR6oRS5wCjC12ITW42XfG_1jYpt-mf52YaqwMQxs5YcHZLb8eG9bAfbbdUKDRNlSdmpaWSZDszlzTpXmi_uDAK6qlGSNMXFYDObv8E7smibZSvDZs2RDZtPU-I5_0ZN34E8WuGbKxamcuA62tDR0ZzW-syDqUhaIrSesg9oEGcWQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzQjZENTRCOEZEMjUxNjQ5OTZGOTI5RjM3MTE3MThBIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwibmJmIjoxNzc5ODg2ODg4LCJpYXQiOjE3Nzk4ODY4ODgsImV4cCI6MTc3OTg5MDQ4OCwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS9yZXNvdXJjZXMiLCJzY29wZSI6WyJWb3hlbEdhbGxlcnkuQXBpIiwiVm94ZWxHYWxsZXJ5LkFwaS5tMm0iXSwiY2xpZW50X2lkIjoicG9zdG1hbiIsImp0aSI6IjkwRUZGODhCRUUwNzg4QjU0MDY3NEJFNjZBNTJCMDAyIn0.iH3E0jujkHSB8qjgseFvORa7Q4mBHMKt0ACSdxob_Ehqp7GtrVbFi08S5IqXe6FGyNkpp1MdskHk7fGTRtX0IzYWv8ioO7Q_SDzMT7EJLrU62M_UqiW2ZbLHlvRmcq6xDB_I5QqlFzXmgzoLS6-E6jhMpmBXHW1vB4R3DVHyh4vnbXLpONgeEjR1AYylHX9unPvaKqcWzx3l5TAT2DPrDNaZwPZBOd5LLZRzAzzdSBfmGTdes9CDy_VWA5drIuQmuAzIqB3GjO_CDqYWH4ciHBJxU43UHt2jFpV8xKry-0K-KlOwAXeVeQeRQuPB21Q359v54QxBKTofrg0I2jaJ1g",
+            "description": "will check for admin",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"Title\":\"lol Idk, what about this\",\r\n    \"Body\":\"Just make a new news item, it's not that difficult\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://vox-news-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/api/News",
+          "protocol": "https",
+          "host": [
+            "vox-news-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "api",
+            "News"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get News",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2NzlFRDQyRDdEMzQ3RDg1RUU3NTUyNDIyQUREMDlCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ZveGlkZW50aXR5c2VydmljZS5ncmVlbnNhbmQtOWU2ZWY2NzYuZ2VybWFueXdlc3RjZW50cmFsLmF6dXJlY29udGFpbmVyYXBwcy5pbyIsIm5iZiI6MTc4MDg0MDUyMCwiaWF0IjoxNzgwODQwNTIwLCJleHAiOjE3ODA4NDQxMjAsImF1ZCI6Imh0dHBzOi8vdm94aWRlbnRpdHlzZXJ2aWNlLmdyZWVuc2FuZC05ZTZlZjY3Ni5nZXJtYW55d2VzdGNlbnRyYWwuYXp1cmVjb250YWluZXJhcHBzLmlvL3Jlc291cmNlcyIsInNjb3BlIjpbIlZveGVsR2FsbGVyeS5BcGkiLCJWb3hlbEdhbGxlcnkuQXBpLm0ybSJdLCJjbGllbnRfaWQiOiJwb3N0bWFuIiwianRpIjoiQzBBMzFGOUE3RUFFNzdDOUIwQzFBQjE1NEUzQTU5M0MifQ.MFZRQlkbvLcWfTPwO3LSSmE3OV3gBwzOIIsv74UPisE0iV0qY5Y70dJS_SOy9Ws4e1I93s7Rf1uccPmesEPqd7jP5dYmkBJCxx1T9mGAfjO0q5WOYcj5f1hutEdBn1jrLANx9-b-Pv6KiOXlM1VeMSOLA26yyDrlan7JvxpLmmhR6oRS5wCjC12ITW42XfG_1jYpt-mf52YaqwMQxs5YcHZLb8eG9bAfbbdUKDRNlSdmpaWSZDszlzTpXmi_uDAK6qlGSNMXFYDObv8E7smibZSvDZs2RDZtPU-I5_0ZN34E8WuGbKxamcuA62tDR0ZzW-syDqUhaIrSesg9oEGcWQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzQjZENTRCOEZEMjUxNjQ5OTZGOTI5RjM3MTE3MThBIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwibmJmIjoxNzc5ODg2ODg4LCJpYXQiOjE3Nzk4ODY4ODgsImV4cCI6MTc3OTg5MDQ4OCwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS9yZXNvdXJjZXMiLCJzY29wZSI6WyJWb3hlbEdhbGxlcnkuQXBpIiwiVm94ZWxHYWxsZXJ5LkFwaS5tMm0iXSwiY2xpZW50X2lkIjoicG9zdG1hbiIsImp0aSI6IjkwRUZGODhCRUUwNzg4QjU0MDY3NEJFNjZBNTJCMDAyIn0.iH3E0jujkHSB8qjgseFvORa7Q4mBHMKt0ACSdxob_Ehqp7GtrVbFi08S5IqXe6FGyNkpp1MdskHk7fGTRtX0IzYWv8ioO7Q_SDzMT7EJLrU62M_UqiW2ZbLHlvRmcq6xDB_I5QqlFzXmgzoLS6-E6jhMpmBXHW1vB4R3DVHyh4vnbXLpONgeEjR1AYylHX9unPvaKqcWzx3l5TAT2DPrDNaZwPZBOd5LLZRzAzzdSBfmGTdes9CDy_VWA5drIuQmuAzIqB3GjO_CDqYWH4ciHBJxU43UHt2jFpV8xKry-0K-KlOwAXeVeQeRQuPB21Q359v54QxBKTofrg0I2jaJ1g",
+            "description": "will check for user",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://vox-news-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/api/News/a34ab384-2a41-4edc-9297-4b74914adb38",
+          "protocol": "https",
+          "host": [
+            "vox-news-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "api",
+            "News",
+            "a34ab384-2a41-4edc-9297-4b74914adb38"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete News",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2NzlFRDQyRDdEMzQ3RDg1RUU3NTUyNDIyQUREMDlCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ZveGlkZW50aXR5c2VydmljZS5ncmVlbnNhbmQtOWU2ZWY2NzYuZ2VybWFueXdlc3RjZW50cmFsLmF6dXJlY29udGFpbmVyYXBwcy5pbyIsIm5iZiI6MTc4MDg0MDUyMCwiaWF0IjoxNzgwODQwNTIwLCJleHAiOjE3ODA4NDQxMjAsImF1ZCI6Imh0dHBzOi8vdm94aWRlbnRpdHlzZXJ2aWNlLmdyZWVuc2FuZC05ZTZlZjY3Ni5nZXJtYW55d2VzdGNlbnRyYWwuYXp1cmVjb250YWluZXJhcHBzLmlvL3Jlc291cmNlcyIsInNjb3BlIjpbIlZveGVsR2FsbGVyeS5BcGkiLCJWb3hlbEdhbGxlcnkuQXBpLm0ybSJdLCJjbGllbnRfaWQiOiJwb3N0bWFuIiwianRpIjoiQzBBMzFGOUE3RUFFNzdDOUIwQzFBQjE1NEUzQTU5M0MifQ.MFZRQlkbvLcWfTPwO3LSSmE3OV3gBwzOIIsv74UPisE0iV0qY5Y70dJS_SOy9Ws4e1I93s7Rf1uccPmesEPqd7jP5dYmkBJCxx1T9mGAfjO0q5WOYcj5f1hutEdBn1jrLANx9-b-Pv6KiOXlM1VeMSOLA26yyDrlan7JvxpLmmhR6oRS5wCjC12ITW42XfG_1jYpt-mf52YaqwMQxs5YcHZLb8eG9bAfbbdUKDRNlSdmpaWSZDszlzTpXmi_uDAK6qlGSNMXFYDObv8E7smibZSvDZs2RDZtPU-I5_0ZN34E8WuGbKxamcuA62tDR0ZzW-syDqUhaIrSesg9oEGcWQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzQjZENTRCOEZEMjUxNjQ5OTZGOTI5RjM3MTE3MThBIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwibmJmIjoxNzc5ODg2ODg4LCJpYXQiOjE3Nzk4ODY4ODgsImV4cCI6MTc3OTg5MDQ4OCwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS9yZXNvdXJjZXMiLCJzY29wZSI6WyJWb3hlbEdhbGxlcnkuQXBpIiwiVm94ZWxHYWxsZXJ5LkFwaS5tMm0iXSwiY2xpZW50X2lkIjoicG9zdG1hbiIsImp0aSI6IjkwRUZGODhCRUUwNzg4QjU0MDY3NEJFNjZBNTJCMDAyIn0.iH3E0jujkHSB8qjgseFvORa7Q4mBHMKt0ACSdxob_Ehqp7GtrVbFi08S5IqXe6FGyNkpp1MdskHk7fGTRtX0IzYWv8ioO7Q_SDzMT7EJLrU62M_UqiW2ZbLHlvRmcq6xDB_I5QqlFzXmgzoLS6-E6jhMpmBXHW1vB4R3DVHyh4vnbXLpONgeEjR1AYylHX9unPvaKqcWzx3l5TAT2DPrDNaZwPZBOd5LLZRzAzzdSBfmGTdes9CDy_VWA5drIuQmuAzIqB3GjO_CDqYWH4ciHBJxU43UHt2jFpV8xKry-0K-KlOwAXeVeQeRQuPB21Q359v54QxBKTofrg0I2jaJ1g",
+            "description": "will check for admin",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://vox-news-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/api/News/a34ab384-2a41-4edc-9297-4b74914adb38",
+          "protocol": "https",
+          "host": [
+            "vox-news-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "api",
+            "News",
+            "a34ab384-2a41-4edc-9297-4b74914adb38"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "info": {
+    "_postman_id": "199ebaab-97e2-471e-9589-6d5fd00114aa",
+    "name": "StripePaymentApi",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52296909"
+  },
+  "item": [
+    {
+      "name": "get products",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjkzQjZENTRCOEZEMjUxNjQ5OTZGOTI5RjM3MTE3MThBIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL2xvY2FsaG9zdDo1MDAxIiwibmJmIjoxNzc5ODkxMzcyLCJpYXQiOjE3Nzk4OTEzNzIsImV4cCI6MTc3OTg5NDk3MiwiYXVkIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMS9yZXNvdXJjZXMiLCJzY29wZSI6WyJWb3hlbEdhbGxlcnkuQXBpIiwiVm94ZWxHYWxsZXJ5LkFwaS5tMm0iXSwiY2xpZW50X2lkIjoicG9zdG1hbiIsImp0aSI6Ijk1NjBEMjdDNDM2MDdCMEIxMkI1ODUwQzk0QzBFMTQ3In0.mLaS0x4jlg4TIVfgFJJls7giFB3pzOFapqUq_9qZskD66bQyHfIs-x6WflrUQm_cc-I_6_DX1sSXnATKMLrNl7becdiYbJdRZQD_JZUeljXgwizMQ7yx0Jen8F3Wc9w7BnpAGmAyAIqEzVPwzTmR1DTceGsqjpMTbUTZFVoqDHwLr-2qB9E3QD7u1WxmYOCUTF0oQ-u2Cxnr00EWvwTxINZ2IiuSa3j96XwhN1pl7ggbIP8yXVh1AnfsUg3osGpUh87ObFf7jzPXsHbV1srfAcAMQBRF6VjQ27cpR1mWtpsG5cTeQv7Tg4FV3d5tH5bIK4boKu1R04XPUz8xDZleyg",
+            "description": "will check for user",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "https://vox-payment-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/stripe/products",
+          "protocol": "https",
+          "host": [
+            "vox-payment-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "stripe",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get session",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2NzlFRDQyRDdEMzQ3RDg1RUU3NTUyNDIyQUREMDlCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ZveGlkZW50aXR5c2VydmljZS5ncmVlbnNhbmQtOWU2ZWY2NzYuZ2VybWFueXdlc3RjZW50cmFsLmF6dXJlY29udGFpbmVyYXBwcy5pbyIsIm5iZiI6MTc4MDg0MDUyMCwiaWF0IjoxNzgwODQwNTIwLCJleHAiOjE3ODA4NDQxMjAsImF1ZCI6Imh0dHBzOi8vdm94aWRlbnRpdHlzZXJ2aWNlLmdyZWVuc2FuZC05ZTZlZjY3Ni5nZXJtYW55d2VzdGNlbnRyYWwuYXp1cmVjb250YWluZXJhcHBzLmlvL3Jlc291cmNlcyIsInNjb3BlIjpbIlZveGVsR2FsbGVyeS5BcGkiLCJWb3hlbEdhbGxlcnkuQXBpLm0ybSJdLCJjbGllbnRfaWQiOiJwb3N0bWFuIiwianRpIjoiQzBBMzFGOUE3RUFFNzdDOUIwQzFBQjE1NEUzQTU5M0MifQ.MFZRQlkbvLcWfTPwO3LSSmE3OV3gBwzOIIsv74UPisE0iV0qY5Y70dJS_SOy9Ws4e1I93s7Rf1uccPmesEPqd7jP5dYmkBJCxx1T9mGAfjO0q5WOYcj5f1hutEdBn1jrLANx9-b-Pv6KiOXlM1VeMSOLA26yyDrlan7JvxpLmmhR6oRS5wCjC12ITW42XfG_1jYpt-mf52YaqwMQxs5YcHZLb8eG9bAfbbdUKDRNlSdmpaWSZDszlzTpXmi_uDAK6qlGSNMXFYDObv8E7smibZSvDZs2RDZtPU-I5_0ZN34E8WuGbKxamcuA62tDR0ZzW-syDqUhaIrSesg9oEGcWQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"priceId\":\"price_1TaWDq0jFLyjFt00dUhUJyhL\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://vox-payment-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/stripe",
+          "protocol": "https",
+          "host": [
+            "vox-payment-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "stripe"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "webhook",
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IkE2NzlFRDQyRDdEMzQ3RDg1RUU3NTUyNDIyQUREMDlCIiwidHlwIjoiYXQrand0In0.eyJpc3MiOiJodHRwczovL3ZveGlkZW50aXR5c2VydmljZS5ncmVlbnNhbmQtOWU2ZWY2NzYuZ2VybWFueXdlc3RjZW50cmFsLmF6dXJlY29udGFpbmVyYXBwcy5pbyIsIm5iZiI6MTc4MDgzOTI4OCwiaWF0IjoxNzgwODM5Mjg4LCJleHAiOjE3ODA4NDI4ODgsImF1ZCI6Imh0dHBzOi8vdm94aWRlbnRpdHlzZXJ2aWNlLmdyZWVuc2FuZC05ZTZlZjY3Ni5nZXJtYW55d2VzdGNlbnRyYWwuYXp1cmVjb250YWluZXJhcHBzLmlvL3Jlc291cmNlcyIsInNjb3BlIjpbIlZveGVsR2FsbGVyeS5BcGkiLCJWb3hlbEdhbGxlcnkuQXBpLm0ybSJdLCJjbGllbnRfaWQiOiJwb3N0bWFuIiwianRpIjoiNEY1MDgyRDdBNERFODM2QkI0NENGNkVFOTEzOTQwMzkifQ.MvRQWv_SsqV94PSzADSWI25qw1EThF4ABrHMDaH4w4D18H61u-6NNbnfF7e8EdPEniYu1ENPSK_rF7lmwRPKYBq5wZqqjUgLSTLmrq8dTsi3BuiLv_T13tm3U31O481EBDhoFGWfvIt7fvmExG1xxg61gl2c2QFSqqugqpoWNnzCJdXWo2Wn_fllmEL41hs_xc9qVkp_ke3mpigIkW3HJoTIQDjmZEinLV2T4cYlnfVZXjv2YvLoO9fldKUaV53YpNwLR_PJIV8uFYgmmM0iqmKTtO8cRbLGJmOGMhz3mRmvb0_nscAOnQyWb8FEY-suca6a9tzZDVRbH2-jlnnVrQ",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"priceId\":\"price_1TaWDq0jFLyjFt00dUhUJyhL\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "https://vox-payment-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/stripe/webhook",
+          "protocol": "https",
+          "host": [
+            "vox-payment-server",
+            "greensand-9e6ef676",
+            "germanywestcentral",
+            "azurecontainerapps",
+            "io"
+          ],
+          "path": [
+            "stripe",
+            "webhook"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

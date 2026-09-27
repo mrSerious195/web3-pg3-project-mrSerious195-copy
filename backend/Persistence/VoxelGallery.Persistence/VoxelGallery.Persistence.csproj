@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../../Domain/VoxelGallery.Domain.Model/VoxelGallery.Domain.csproj" />
+    <ProjectReference Include="../VoxelGallery.Persistence.DataModel/VoxelGallery.Persistence.DataModel.csproj" />
+    <ProjectReference Include="../VoxelGallery.Persistence.Interfaces/VoxelGallery.Persistence.Interfaces.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.27.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.7" />
+  </ItemGroup>
+</Project>

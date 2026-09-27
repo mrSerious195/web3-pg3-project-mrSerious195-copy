@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="10.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.7" />
+    <PackageReference Include="Scalar.AspNetCore" Version="2.14.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="controlers/" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../../shared/VoxAuthHandler/VoxAuth.csproj" />
+    <ProjectReference Include="../SiteNews.API.Contracts/SiteNews.API.Contracts.csproj" />
+    <ProjectReference Include="../SiteNews.domain.services/SiteNews.Domain.Services.csproj" />
+    <ProjectReference Include="../SiteNews.domain/SiteNews.domain.csproj" />
+  </ItemGroup>
+
+</Project>

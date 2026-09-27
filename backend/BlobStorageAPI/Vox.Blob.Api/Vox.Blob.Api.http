@@ -1,0 +1,6 @@
+@Vox.Blob.Api_HostAddress = http://localhost:5187
+
+GET {{Vox.Blob.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
