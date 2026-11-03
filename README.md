@@ -1,3 +1,6 @@
+Dit is een copy van een project dat ik gemaakt had voor de vakken web3 en Programmeren Gevorderd 3,
+
+
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/TWZD_Rru)
 # web3-pg3-project voxel site
 
