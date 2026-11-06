@@ -1,4 +1,6 @@
-Dit is een copy van een project dat ik gemaakt had voor de vakken web3 en Programmeren Gevorderd 3,
+Dit is een kopie van een project dat ik gemaakt heb voor de vakken Web 3 en Programmeren Gevorderd 3.
+
+Het project stond oorspronkelijk in een GitHub Classroom-repository, maar omdat ik die repository niet kon delen, heb ik er een kopie van gemaakt.
 
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/TWZD_Rru)
@@ -8,7 +10,7 @@ Beschrijf in deze markdown file het **onderwerp** en de **functionaliteit** van 
 
 Ik heb voor mijn project een website gemaakt zoals DeviantArt, maar alleen voor .vox (voxel) files.
 Voordat je de site kan gebruiken moet je je eerst inloggen (of misschien ook registreren).
-Als je ingelogd bent zie je een frontpage. op deze frontpage kan je zoeken naar specifieke .vox files. Je kan hier ook makkelijk je favorite .vox files vinden. er is hier ook wat niews van de admin over de site.
+Als je ingelogd bent zie je een frontpage. op deze frontpage kan je zoeken naar specifieke .vox files. Je kan hier ook makkelijk je favorite .vox files vinden. er is hier ook wat nieuws van de admin over de site.
 Er is ook een pagina om je .vox files te uploaden.
 Als je geïnteresseerd bent, in een file kan je het ook, op een aparte pagina, in het groot bekijken en wat commentaar achterlaten.
 > [!IMPORTANT]
@@ -33,7 +35,7 @@ heb ik
 
 • Gebruik minstens twee rollen (user en admin) en rolgebaseerde UI
 
-Ik heb 2 rollen, maar het enige verschil tussen een admin en een normale gebruiker is dat de admin het niews op de site kan veranderen / aanmaken en deleten
+Ik heb 2 rollen, maar het enige verschil tussen een admin en een normale gebruiker is dat de admin het nieuws op de site kan veranderen / aanmaken en deleten
 
 • Zoeken, filteren en pagineren op server-side niveau en tonen op frontend
 
@@ -67,7 +69,7 @@ Ik denk niet dat ik ergens any heb
 
 • React Router en Formik (of React Hook Form)
 
-Ik gebruik ze bijden (ik gebruik ook yup)
+Ik gebruik ze beiden (ik gebruik ook yup)
 
 • Fetchen met fetch API of Axios met foutafhandeling
 
@@ -81,7 +83,7 @@ Ik denk dat dit ok is
 
 • CORS correct configureren
 
-Ik kan connecteren vanuit mijn frontend, zo ik denk dat CORS inorde is
+Ik kan connecteren vanuit mijn frontend, zo ik denk dat CORS in orde is
 
 • Azure DevOps repository met toegang voor beide docenten
 
@@ -98,7 +100,8 @@ o Volledige historiek taken en commits in versiebeheer
 heb ik
 
 o Volledig live op Azure
-https://hogenttaskvoxfilestorage.z1.web.core.windows.net/ 
+
+de applicatie staat momenteel niet meer online
 
 o Communicatie tussen eigen web services(Identity Server telt nietmee)
 
@@ -114,7 +117,7 @@ o Gebruik van de drie verschillende opslagtypes
 
 azure blob voor de .vox files and de preview image,
 azure sql voor de voxdata Databank en identityserver
-azure Cosmos voor het niews
+azure Cosmos voor het nieuws
 
 o Authenticatie & Authorisatiemet Identity Serverop alle api en ui elementen
 
@@ -122,7 +125,5 @@ het enige waar ik dit niet op heb is de stripe webhook
 
 o Documentatie (OpenApi + Scalar(geenSwagger) enPostmanCollection)oEenvoudige UI om user login en 1 beveiligde api te demonstreren
 de postman files staan in docs en dit zijn de openAPI's
-https://vox-payment-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/scalar
-https://vox-info-service.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/scalar
-https://vox-blob-service.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/scalar
-https://vox-news-server.greensand-9e6ef676.germanywestcentral.azurecontainerapps.io/scalar
+
+de applicatie staat momenteel niet meer online
